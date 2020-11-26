@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.downloads,
+.upcoming,
+.products,
+.report,
+.faq,
+.sign-up,
+.marketing,
+.ddl,
+.consulting,
+.nyaa {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.home:hover {
+  background-image: url('./images/img-1-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.home-logo {
+  background-image: url('./images/neko.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 50%;
+
+  max-width: 500px;
+  max-height: 700px;
+}
+
+.home-logo:hover {
+  background-image: url('./images/neko.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 0.3s;
+  height: 70%;
+  width: 70%;
+
+  max-width: 700px;
+  max-height: 900px;
+}
+
+.services {
+  background-image: url('./images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.downloads {
+  background-image: url('./images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.upcoming {
+  background-image: url('./images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('./images/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.report {
+  background-image: url('./images/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.faq {
+  background-image: url('./images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-image: url('./images/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.ddl {
+  background-image: url('./images/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.consulting {
+  background-image: url('./images/img-5.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.nyaa {
+  background-image: url('./images/img-5.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
