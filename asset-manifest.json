@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nekoencodes/static/css/main.a455ad6f.chunk.css",
+    "main.js": "/nekoencodes/static/js/main.a5ac9f21.chunk.js",
+    "main.js.map": "/nekoencodes/static/js/main.a5ac9f21.chunk.js.map",
+    "runtime-main.js": "/nekoencodes/static/js/runtime-main.24040965.js",
+    "runtime-main.js.map": "/nekoencodes/static/js/runtime-main.24040965.js.map",
+    "static/js/2.cc38fbd3.chunk.js": "/nekoencodes/static/js/2.cc38fbd3.chunk.js",
+    "static/js/2.cc38fbd3.chunk.js.map": "/nekoencodes/static/js/2.cc38fbd3.chunk.js.map",
+    "index.html": "/nekoencodes/index.html",
+    "precache-manifest.7412e31e7db54dc41f756ab94a6ed021.js": "/nekoencodes/precache-manifest.7412e31e7db54dc41f756ab94a6ed021.js",
+    "service-worker.js": "/nekoencodes/service-worker.js",
+    "static/css/main.a455ad6f.chunk.css.map": "/nekoencodes/static/css/main.a455ad6f.chunk.css.map",
+    "static/js/2.cc38fbd3.chunk.js.LICENSE.txt": "/nekoencodes/static/js/2.cc38fbd3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/nekoencodes/static/media/img-7.66001cf8.jpg",
+    "static/media/Navbar.css": "/nekoencodes/static/media/neko.ae534de7.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24040965.js",
+    "static/js/2.cc38fbd3.chunk.js",
+    "static/css/main.a455ad6f.chunk.css",
+    "static/js/main.a5ac9f21.chunk.js"
+  ]
+}
