@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  min-height: 70px;
 }
 
 .navbar-logo {
@@ -16,20 +17,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
-}
-
-.logo-icon {
-  display: inline-flex;
-  background-image: url('../images/neko.gif');
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  size: 1.6rem;
-  height: 3.2rem;
-  width: 3.2rem;
-  margin-top: -0.5rem;
 }
 
 .fa-firstdraft {
@@ -65,7 +52,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #2a2b2b;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -115,7 +102,7 @@
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #2a2b2b;
     border-radius: 0;
   }
 
@@ -123,7 +110,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 20%);
+    transform: translate(25%, 90%);
   }
 
   .menu-icon {
@@ -131,7 +118,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 35%);
+    transform: translate(-100%, 70%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -148,7 +135,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #1888ff;
+    background: #4b4e4e;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -156,7 +143,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #1888ff;
+    color: #4b4e4e;
     transition: 250ms;
   }
 
