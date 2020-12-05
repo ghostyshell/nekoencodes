@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/nekoencodes/static/css/main.a455ad6f.chunk.css",
-    "main.js": "/nekoencodes/static/js/main.a5ac9f21.chunk.js",
-    "main.js.map": "/nekoencodes/static/js/main.a5ac9f21.chunk.js.map",
+    "main.css": "/nekoencodes/static/css/main.58d536cb.chunk.css",
+    "main.js": "/nekoencodes/static/js/main.60f8d72c.chunk.js",
+    "main.js.map": "/nekoencodes/static/js/main.60f8d72c.chunk.js.map",
     "runtime-main.js": "/nekoencodes/static/js/runtime-main.24040965.js",
     "runtime-main.js.map": "/nekoencodes/static/js/runtime-main.24040965.js.map",
-    "static/js/2.cc38fbd3.chunk.js": "/nekoencodes/static/js/2.cc38fbd3.chunk.js",
-    "static/js/2.cc38fbd3.chunk.js.map": "/nekoencodes/static/js/2.cc38fbd3.chunk.js.map",
+    "static/css/2.88e6d662.chunk.css": "/nekoencodes/static/css/2.88e6d662.chunk.css",
+    "static/js/2.36ad3cb1.chunk.js": "/nekoencodes/static/js/2.36ad3cb1.chunk.js",
+    "static/js/2.36ad3cb1.chunk.js.map": "/nekoencodes/static/js/2.36ad3cb1.chunk.js.map",
     "index.html": "/nekoencodes/index.html",
-    "precache-manifest.7412e31e7db54dc41f756ab94a6ed021.js": "/nekoencodes/precache-manifest.7412e31e7db54dc41f756ab94a6ed021.js",
+    "precache-manifest.1dd0b988e522e330b653e70003295605.js": "/nekoencodes/precache-manifest.1dd0b988e522e330b653e70003295605.js",
     "service-worker.js": "/nekoencodes/service-worker.js",
-    "static/css/main.a455ad6f.chunk.css.map": "/nekoencodes/static/css/main.a455ad6f.chunk.css.map",
-    "static/js/2.cc38fbd3.chunk.js.LICENSE.txt": "/nekoencodes/static/js/2.cc38fbd3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/nekoencodes/static/media/img-7.66001cf8.jpg",
-    "static/media/Navbar.css": "/nekoencodes/static/media/neko.ae534de7.gif"
+    "static/css/2.88e6d662.chunk.css.map": "/nekoencodes/static/css/2.88e6d662.chunk.css.map",
+    "static/css/main.58d536cb.chunk.css.map": "/nekoencodes/static/css/main.58d536cb.chunk.css.map",
+    "static/js/2.36ad3cb1.chunk.js.LICENSE.txt": "/nekoencodes/static/js/2.36ad3cb1.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/nekoencodes/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.24040965.js",
-    "static/js/2.cc38fbd3.chunk.js",
-    "static/css/main.a455ad6f.chunk.css",
-    "static/js/main.a5ac9f21.chunk.js"
+    "static/css/2.88e6d662.chunk.css",
+    "static/js/2.36ad3cb1.chunk.js",
+    "static/css/main.58d536cb.chunk.css",
+    "static/js/main.60f8d72c.chunk.js"
   ]
 }
