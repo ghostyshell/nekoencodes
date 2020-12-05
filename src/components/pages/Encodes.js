@@ -44,7 +44,7 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
 
   const drive = axios.create({
     baseURL:
-      'http://ec2-3-26-34-61.ap-southeast-2.compute.amazonaws.com:6969/api/v1/neko-aws/encoded-files',
+      'https://doesthiswork.net/api/v1/neko-aws/encoded-files',
   });
 
   fetchDriveDeets = async () => {
