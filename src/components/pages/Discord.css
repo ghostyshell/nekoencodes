@@ -24,5 +24,6 @@
 
 .discord-widget {
   min-width: 3rem !important;
+  height: 75vh;
   min-height: 250px !important;
 }
