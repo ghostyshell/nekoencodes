@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nekoencodes/static/css/main.62583714.chunk.css",
+    "main.css": "/nekoencodes/static/css/main.2d2015ac.chunk.css",
     "main.js": "/nekoencodes/static/js/main.ef663f88.chunk.js",
     "main.js.map": "/nekoencodes/static/js/main.ef663f88.chunk.js.map",
     "runtime-main.js": "/nekoencodes/static/js/runtime-main.24040965.js",
@@ -9,10 +9,10 @@
     "static/js/2.8d0d78c5.chunk.js": "/nekoencodes/static/js/2.8d0d78c5.chunk.js",
     "static/js/2.8d0d78c5.chunk.js.map": "/nekoencodes/static/js/2.8d0d78c5.chunk.js.map",
     "index.html": "/nekoencodes/index.html",
-    "precache-manifest.4f4645540a31568ab15442ae9fbcdf39.js": "/nekoencodes/precache-manifest.4f4645540a31568ab15442ae9fbcdf39.js",
+    "precache-manifest.3c8050685019cf66a8cf2713b8f41ba8.js": "/nekoencodes/precache-manifest.3c8050685019cf66a8cf2713b8f41ba8.js",
     "service-worker.js": "/nekoencodes/service-worker.js",
     "static/css/2.88e6d662.chunk.css.map": "/nekoencodes/static/css/2.88e6d662.chunk.css.map",
-    "static/css/main.62583714.chunk.css.map": "/nekoencodes/static/css/main.62583714.chunk.css.map",
+    "static/css/main.2d2015ac.chunk.css.map": "/nekoencodes/static/css/main.2d2015ac.chunk.css.map",
     "static/js/2.8d0d78c5.chunk.js.LICENSE.txt": "/nekoencodes/static/js/2.8d0d78c5.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/nekoencodes/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.24040965.js",
     "static/css/2.88e6d662.chunk.css",
     "static/js/2.8d0d78c5.chunk.js",
-    "static/css/main.62583714.chunk.css",
+    "static/css/main.2d2015ac.chunk.css",
     "static/js/main.ef663f88.chunk.js"
   ]
 }
