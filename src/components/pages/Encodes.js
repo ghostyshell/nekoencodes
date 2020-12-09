@@ -80,16 +80,18 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
                     }
                     wrapped
                     ui={false}
+                    className='encode-img'
                   />
 
-                  <Card.Content>
+                  <Card.Content className='encode-content'>
                     <Card.Header>{trimTitles(file.name)}</Card.Header>
                     <Card.Meta>
                       {encodes.has(trimTitles(file.name))
                         ? encodes.get(trimTitles(file.name)).year
                         : 'XXXX'}
                     </Card.Meta>
-                    <Card.Description>
+                    <Card.Description
+                      className='encode-desc'>
                       {encodes.has(trimTitles(file.name))
                         ? encodes.get(trimTitles(file.name)).description
                         : 'Daniel is a comedian living in Nashville.'}
@@ -97,7 +99,35 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
                   </Card.Content>
                   <Card.Content extra className="dl-links-container">
                     <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={
+                        encodes.has(trimTitles(file.name))
+                          ? encodes.get(trimTitles(file.name)).mal
+                          : ''
+                      }
+                    >
+                      <Icon name="info circle" />
+                      MAL
+                    </a>
+                    <span>&nbsp; &nbsp; &nbsp;</span>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={
+                        encodes.has(trimTitles(file.name))
+                          ? encodes.get(trimTitles(file.name)).imdb
+                          : ''
+                      }
+                    >
+                      <Icon name="imdb" />
+                      IMDB
+                    </a>
+                  </Card.Content>
+                  <Card.Content extra className="dl-links-container">
+                    <a
                       className="dl-link-nyaa"
+                      style={{borderWidth: "5px solid red"}}
                       target="_blank"
                       rel="noopener noreferrer"
                       href={
@@ -109,9 +139,6 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
                       <Icon name="magnet" />
                       Nyaa
                     </a>
-                    <a style={{ minWidth: '1rem' }} href={'/encodes'}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </a>
                     <a
                       className="dl-link-ddl"
                       target="_blank"
@@ -122,6 +149,7 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
                       DDL
                     </a>
                   </Card.Content>
+                  
                 </Card>
               ))
             : ''}

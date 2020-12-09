@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Discord from './components/pages/Discord';
@@ -34,7 +34,7 @@ function App() {
           <Route path="/report" component={Report} />
           <Route path="/sign-up" component={SignUp} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </DocumentTitle>
   );
