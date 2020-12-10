@@ -1,6 +1,6 @@
 # Edit Metadata
 
-Add the metadata in the correct format by editing this file: [encode.js](./src/encode.js) then commit changes to the file.
+Add the metadata in the correct format by editing this file: [encode.js](./src/encodes.js) then commit changes to the file.
 Note you do not need to install the application to make changes to the metadata file.
 However you do need to install and then deploy the application for the changes to be visible on the [website](https://ghostyshell.github.io/nekoencodes/)
 
