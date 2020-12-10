@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af9cbd13010f9684924cb5782a76dae4",
+    "revision": "633e102ca4644aff89dfefb88415534c",
     "url": "/nekoencodes/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nekoencodes/static/css/2.88e6d662.chunk.css"
   },
   {
-    "revision": "c464fa021e92edd37691",
-    "url": "/nekoencodes/static/css/main.fe4f5706.chunk.css"
+    "revision": "8fffd7ac9ca84d59663e",
+    "url": "/nekoencodes/static/css/main.06d92f14.chunk.css"
   },
   {
     "revision": "8a8c1b3ced5156be0f91",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nekoencodes/static/js/2.8fc4008e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c464fa021e92edd37691",
+    "revision": "8fffd7ac9ca84d59663e",
     "url": "/nekoencodes/static/js/main.5f0a9e85.chunk.js"
   },
   {
