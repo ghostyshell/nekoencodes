@@ -12,7 +12,10 @@ function Navbar({ dataLoaded, setDataLoaded }) {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="/" className="navbar-logo" onClick={()=>{
+                closeMobileMenu();
+                setDataLoaded(false);
+              }}>
           Neko Encodes
         </Link>
         <div className="menu-icon" onClick={handleClick}>
@@ -20,7 +23,10 @@ function Navbar({ dataLoaded, setDataLoaded }) {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/" className="nav-links" onClick={()=>{
+                closeMobileMenu();
+                setDataLoaded(false);
+              }}>
               Home
             </Link>
           </li>

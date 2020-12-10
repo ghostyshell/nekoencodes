@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import DocumentTitle from 'react-document-title';
 import './Encodes.css';
 import encodes from '../../encodes';
+import LazyLoad from 'react-lazyload';
+import StackGrid from "react-stack-grid";
+import { withRouter } from 'react-router';
+
 
 import axios from 'axios';
 
@@ -15,12 +19,10 @@ import {
   Loader,
 } from 'semantic-ui-react';
 
-export default function Downloads({ dataLoaded, setDataLoaded }) {
+
+function Downloads({ dataLoaded, setDataLoaded }) {
   const [data, setData] = useState(null);
   const [active, setActive] = useState(!dataLoaded);
-
-  // console.log(encodesMap);
-  // console.log(encodes.get('K-On!').year);
 
   let fetchDriveDeets;
 
@@ -31,16 +33,11 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
       .trim();
 
   useEffect(() => {
+    
     setActive(!dataLoaded);
     fetchDriveDeets();
-  }, [dataLoaded, fetchDriveDeets]);
 
-  // useEffect(() => {
-  //   if (data) {
-  //     setActive();
-  //     dataLoaded(true);
-  //   }
-  // });
+  }, [dataLoaded, fetchDriveDeets]);
 
   const drive = axios.create({
     baseURL:
@@ -69,9 +66,11 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
               Loading
             </Header>
           </Dimmer>
+          <StackGrid columnWidth={200}>
           {data
             ? data.map((file) => (
-                <Card key={file.id}>
+              <LazyLoad key={file.id} height={200} offset={100} style={{margin: '1%',height: 'auto'}} once>
+                <Card >
                   <Image
                     src={
                       encodes.has(trimTitles(file.name))
@@ -151,10 +150,14 @@ export default function Downloads({ dataLoaded, setDataLoaded }) {
                   </Card.Content>
                   
                 </Card>
+                </LazyLoad>
               ))
             : ''}
+            </StackGrid>
         </Dimmer.Dimmable>
       </div>
     </DocumentTitle>
   );
 }
+
+export default withRouter(Downloads);
